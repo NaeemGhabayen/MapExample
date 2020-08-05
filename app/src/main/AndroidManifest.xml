@@ -31,8 +31,11 @@
             android:value="@string/google_maps_key" />
 
         <activity
+            android:name=".nerpyPlaceMapActivity"
+            android:label="@string/title_activity_nerpy_place_map"></activity>
+        <activity
             android:name=".drawRoutActivity"
-            android:label="@string/title_activity_draw_rout"></activity>
+            android:label="@string/title_activity_draw_rout" />
         <activity
             android:name=".searchMapActivity"
             android:label="@string/title_activity_search_map" />

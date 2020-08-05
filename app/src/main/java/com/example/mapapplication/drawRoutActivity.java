@@ -104,7 +104,7 @@ public class drawRoutActivity extends FragmentActivity implements OnMapReadyCall
         String parameters = str_origin + "&" + str_dest + "&" + sensor;
         String output = "json";
         String url = "https://maps.googleapis.com/maps/api/directions/" + output + "?" + parameters
-                + "&key=" + "AIzaSyA0b9V1syYwEaQFMoc4nQ3_I0vJ6wHaARM";
+                + "&key=" + "Key_Map";
 
         Log.d("Background taskk error", url.toString());
         return url;
