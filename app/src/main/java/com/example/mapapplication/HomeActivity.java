@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class HomeActivity extends AppCompatActivity {
-    Button btn_currentLocation, btn_search_map, btn_setPiker, btn_findRoute;
+    Button btn_currentLocation, btn_search_map, btn_setPiker, btn_findRoute, btn_nerpay;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,7 @@ public class HomeActivity extends AppCompatActivity {
         btn_findRoute = findViewById(R.id.btn_findRoute);
         btn_setPiker = findViewById(R.id.btn_setPiker);
         btn_search_map = findViewById(R.id.btn_search_map);
-
+        btn_nerpay = findViewById(R.id.btn_nerpay);
 
         btn_currentLocation.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,6 +45,13 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), drawRoutActivity.class));
+            }
+        });
+
+        btn_nerpay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), nerpyPlaceMapActivity.class));
             }
         });
     }

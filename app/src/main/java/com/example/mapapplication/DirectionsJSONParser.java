@@ -20,7 +20,6 @@ public class DirectionsJSONParser {
         JSONArray jSteps;
 
         try {
-
             jRoutes = jObject.getJSONArray("routes");
 
             for (int i = 0; i < jRoutes.length(); i++) {

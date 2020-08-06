@@ -4,4 +4,5 @@
     <string name="title_activity_search_map">Map</string>
     <string name="title_activity_draw_rout">Map</string>
     <string name="title_activity_nerpy_place_map">Map</string>
+    <string name="google_map_key">Api_Key</string>
 </resources>
